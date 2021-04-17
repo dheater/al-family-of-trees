@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/.meteor
+.meteor/local
 *~
 /dev_bundle
 /dev_bundle.xxx
@@ -18,7 +18,7 @@ node_modules
 *.sublime-project
 *.sublime-workspace
 /.vscode/
-TAGS
+tags
 *.log
 *.out
 npm-debug.log
