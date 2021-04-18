@@ -8,7 +8,7 @@ import './templates/layout.html'
 import './main.html';
 
 Meteor.startup(() => {
-    render(<App/>, document.getElementById('react-target'));
+    render(<App/>, document.getElementById('render-target'));
 });
 
 Template.layout.events({})
