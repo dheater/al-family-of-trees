@@ -14,11 +14,6 @@ Meteor.startup(() => {
     });
 
     insertLink({
-      title: 'Follow the Guide',
-      url: 'http://guide.meteor.com'
-    });
-
-    insertLink({
       title: 'Read the Docs',
       url: 'https://docs.meteor.com'
     });
@@ -26,6 +21,11 @@ Meteor.startup(() => {
     insertLink({
       title: 'Discussions',
       url: 'https://forums.meteor.com'
+    });
+
+    insertLink({
+      title: 'Alabama Forestry Commission: Champion Tree Program',
+      url: 'https://forestry.alabama.gov/Pages/Management/Champion_Tree.aspx'
     });
   }
 });
