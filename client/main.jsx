@@ -4,6 +4,7 @@ import {Template} from 'meteor/templating'
 import {render} from 'react-dom';
 import {App} from '/imports/ui/App';
 
+import './templates/layout.html'
 import './main.html';
 
 Meteor.startup(() => {
