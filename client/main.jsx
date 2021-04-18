@@ -1,18 +1,15 @@
 import React from 'react';
-import { Meteor } from 'meteor/meteor';
-import { render } from 'react-dom';
-import { App } from '/imports/ui/App';
-import { Template } from 'meteor/templating'
+import {Meteor} from 'meteor/meteor';
+import {Template} from 'meteor/templating'
+import {render} from 'react-dom';
+import {App} from '/imports/ui/App';
 
 import './main.html';
 
 Meteor.startup(() => {
-  render(<App/>, document.getElementById('react-target'));
+    render(<App/>, document.getElementById('react-target'));
 });
 
 if (Meteor.isClient) {
-  // This code only runs on the client
-  Template.myParagraph.helpers({
-    text: 'This is paragraph...'
-  });
+    Template.layout.events({})
 }
