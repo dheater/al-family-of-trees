@@ -11,6 +11,4 @@ Meteor.startup(() => {
     render(<App/>, document.getElementById('react-target'));
 });
 
-if (Meteor.isClient) {
-    Template.layout.events({})
-}
+Template.layout.events({})
