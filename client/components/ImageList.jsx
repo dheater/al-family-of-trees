@@ -34,13 +34,13 @@ const AL_CHAMPION_TREES = [
 
 const ImageList = () => {
     const RenderedImages = AL_CHAMPION_TREES.map(function (image) {
-        return <ImageDetail/>
+        return <ImageDetail image={image}/>
     });
 
     return (
-        <ui>
+        <ul className="media-list list-group">
             {RenderedImages}
-        </ui>
+        </ul>
     );
 };
 

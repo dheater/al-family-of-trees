@@ -3,3 +3,7 @@ body {
   font-family: sans-serif;
   margin-top: 10rem;
 }
+
+img {
+  width: 15rem;
+}
