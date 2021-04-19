@@ -33,8 +33,8 @@ const AL_CHAMPION_TREES = [
 ];
 
 const ImageList = () => {
-    const RenderedImages = AL_CHAMPION_TREES.map(function (image) {
-        return <ImageDetail image={image}/>
+    const RenderedImages = AL_CHAMPION_TREES.map(image => {
+        return <ImageDetail key={image.name} image={image}/>
     });
 
     return (
