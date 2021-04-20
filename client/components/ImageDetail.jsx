@@ -10,6 +10,7 @@ const ImageDetail = (props) => {
                 <h4 className="media-heading">
                     {props.image.name}
                 </h4>
+                <p>In {props.image.county} county.</p>
             </div>
         </li>
     );
