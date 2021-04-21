@@ -1,31 +1,38 @@
-import { Meteor } from 'meteor/meteor';
-import { LinksCollection } from '/imports/api/links';
-
-function insertLink({ title, url }) {
-  LinksCollection.insert({title, url, createdAt: new Date()});
-}
+import {Meteor} from 'meteor/meteor';
+import {ChampionTrees} from "../imports/collections/ChampionTrees";
 
 Meteor.startup(() => {
-  // If the Links collection is empty, add some data.
-  if (LinksCollection.find().count() === 0) {
-    insertLink({
-      title: 'Do the Tutorial',
-      url: 'https://www.meteor.com/tutorials/react/creating-an-app'
-    });
-
-    insertLink({
-      title: 'Read the Docs',
-      url: 'https://docs.meteor.com'
-    });
-
-    insertLink({
-      title: 'Discussions',
-      url: 'https://forums.meteor.com'
-    });
-
-    insertLink({
-      title: 'Alabama Forestry Commission: Champion Tree Program',
-      url: 'https://forestry.alabama.gov/Pages/Management/Champion_Tree.aspx'
-    });
-  }
+    // If the collection is empty, add some data.
+    if (ChampionTrees.find().count() === 0) {
+        ChampionTrees.insert([
+            {
+                name: 'ALDER, Hazel',
+                species: 'Alnus serrulata',
+                year_named_champion: '2013',
+                circumference_in: '15',
+                height_ft: '36',
+                spread_ft: '18',
+                total_points: '56',
+                county: 'Talladega',
+                last_year_remeasured: '2018',
+                owner: 'Allen McBride',
+                nominator: 'John McBride',
+                image: 'https://dummyimage.com/600x400'
+            },
+            {
+                name: 'AMERICAN SMOKETREE',
+                species: 'Cotinus obovatu',
+                year_named_champion: '2010',
+                circumference_in: '61',
+                height_ft: '64',
+                spread_ft: '38',
+                total_points: '135',
+                county: 'Madison',
+                last_year_remeasured: '2021',
+                owner: 'Carol Rampey',
+                nominator: 'Melody Stewart',
+                image: 'https://dummyimage.com/600x400'
+            }
+        ])
+    }
 });
