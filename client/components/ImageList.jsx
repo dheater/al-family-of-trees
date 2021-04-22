@@ -1,4 +1,7 @@
 import React from 'react';
+import {Meteor} from "meteor/meteor";
+import {withTracker} from 'meteor/react-meteor-data';
+import {ChampionTrees} from "../../imports/collections/ChampionTrees";
 import ImageDetail from "./ImageDetail";
 
 const AL_CHAMPION_TREES = [
@@ -32,16 +35,18 @@ const AL_CHAMPION_TREES = [
     }
 ];
 
-const ImageList = () => {
-    const RenderedImages = AL_CHAMPION_TREES.map(image => {
-        return <ImageDetail key={image.name} image={image}/>
-    });
-
+const ImageList = ({trees}) => {
     return (
         <ul className="media-list list-group">
-            {RenderedImages}
+            {trees.map(tree => <ImageDetail key={tree.name} image={tree}/>)}
         </ul>
     );
-};
+}
 
-export default ImageList;
+export default withTracker(() => {
+    const subscription = Meteor.subscribe('ChampionTrees');
+    return {
+        isLoading: !subscription.ready(),
+        trees: ChampionTrees.find({}).fetch()
+    };
+})(ImageList);
