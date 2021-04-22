@@ -44,9 +44,8 @@ const ImageList = ({trees}) => {
 }
 
 export default withTracker(() => {
-    const subscription = Meteor.subscribe('ChampionTrees');
+    Meteor.subscribe('ChampionTrees');
     return {
-        isLoading: !subscription.ready(),
         trees: ChampionTrees.find({}).fetch()
     };
 })(ImageList);
