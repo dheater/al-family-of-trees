@@ -1,10 +1,12 @@
 import React from 'react';
 
 const ImageDetail = (props) => {
+    const {name, image} = props;
+
     return (
         <li className="media list-group-item">
             <div className="media-left">
-                <img src={props.image.image} alt={props.image.name}/>
+                <img src={image.image} alt={name}/>
             </div>
             <div className="media-body">
                 <h4 className="media-heading">
