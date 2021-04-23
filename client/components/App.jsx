@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ImageList from "./ImageList";
+import ImageList from "./TreeList";
 
 export class App extends Component {
     render() {

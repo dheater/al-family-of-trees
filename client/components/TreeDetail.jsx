@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ImageDetail = (props) => {
+const TreeDetail = (props) => {
     const {name, image} = props;
 
     return (
@@ -18,4 +18,4 @@ const ImageDetail = (props) => {
     );
 };
 
-export default ImageDetail;
+export default TreeDetail;
