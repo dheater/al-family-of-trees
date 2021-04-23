@@ -32,8 +32,6 @@ export class App extends Component {
                     </button>
                     </div>
                 </div>
-
-                <ImageList/>
             </div>
         );
     }
