@@ -8,10 +8,28 @@ img {
   width: 15rem;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.welcome-button {
+    width: 50%;
+}
+
 .tree-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .tree-detail {

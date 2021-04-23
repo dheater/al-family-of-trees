@@ -14,22 +14,29 @@ export class App extends Component {
                         in
                         the state including several national champions!</a>
                 </p>
-                <button onClick={() => console.log('clicked')}
-                        className="btn btn-primary">
-                    Scan a Champ
-                </button>
-                <button onClick={() => console.log('clicked')}
-                        className="btn btn-primary">
-                    My Collection
-                </button>
-                <button onClick={() => console.log('clicked')}
-                        className="btn btn-primary">
-                    Explore
-                </button>
-                <button onClick={() => console.log('clicked')}
-                        className="btn btn-primary">
-                    Identify a Tree
-                </button>
+                <div className="welcome-buttons">
+                    <div className="row">
+                        <button onClick={() => console.log('clicked')}
+                                className="welcome-button btn btn-primary">
+                            Scan a Champ
+                        </button>
+                        <button onClick={() => console.log('clicked')}
+                                className="welcome-button btn btn-primary">
+                            My Collection
+                        </button>
+                    </div>
+                    <div className="row">
+                    <button onClick={() => console.log('clicked')}
+                            className="welcome-button btn btn-primary">
+                        Explore
+                    </button>
+                    <button onClick={() => console.log('clicked')}
+                            className="welcome-button btn btn-primary">
+                        Identify a Tree
+                    </button>
+                    </div>
+                </div>
+
                 <ImageList/>
             </div>
         );
