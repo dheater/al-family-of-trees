@@ -4,7 +4,7 @@ const TreeDetail = (props) => {
     const {name, image} = props;
 
     return (
-        <li className="media list-group-item">
+        <li className="tree-detail media list-group-item">
             <div className="media-left">
                 <img src={image.image} alt={name}/>
             </div>

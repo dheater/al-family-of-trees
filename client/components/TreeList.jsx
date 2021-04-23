@@ -6,7 +6,7 @@ import TreeDetail from "./TreeDetail";
 
 const TreeList = ({trees}) => {
     return (
-        <ul className="media-list list-group">
+        <ul className="tree-list media-list list-group">
             {trees.map(tree => <TreeDetail key={tree.name} image={tree}/>)}
         </ul>
     );
