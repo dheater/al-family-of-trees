@@ -1,7 +1,7 @@
 body {
     padding: 10px;
     font-family: sans-serif;
-    margin-top: 20rem;
+    margin-top: 18rem;
 }
 
 img {
@@ -21,6 +21,10 @@ img {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+}
+.mascot {
+    width: 7rem;
+    padding-left: 10px;
 }
 
 .welcome-button {
