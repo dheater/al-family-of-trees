@@ -17,3 +17,5 @@ The project is built on the Meteor framework
 4. `run meteor`
 
 You should see your app running on http://localhost:3000
+
+Rough wireframe layout of app operation: [WIP app wireframe](Screens.jpg)
