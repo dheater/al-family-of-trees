@@ -18,4 +18,8 @@ The project is built on the Meteor framework
 
 You should see your app running on http://localhost:3000
 
-Rough wireframe layout of app operation: [WIP app wireframe](Screens.jpg)
+### Documentation of Expected Functionality
+
+* Rough wireframe layout of app operation: [WIP app wireframe](Screens.jpg)
+
+* [Explanation](Genome_Compare.jpg) of graphics used to show genome comparisons between species
