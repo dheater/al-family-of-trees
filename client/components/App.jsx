@@ -4,7 +4,6 @@ import {LandingPage} from "./LandingPage";
 import Header from "./Header";
 import About from "./About";
 import TreeList from "./TreeList";
-import NominateChamp from "./NominateChamp";
 import {IdentifyTree} from "./IdentifyTree";
 import Explore from "./Explore";
 
@@ -19,9 +18,6 @@ export class App extends Component {
                     <Switch>
                         <Route path="/about">
                             <About/>
-                        </Route>
-                        <Route path="/nominate">
-                            <NominateChamp />
                         </Route>
                         <Route path="/collection">
                             <TreeList />

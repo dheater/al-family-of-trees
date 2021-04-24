@@ -6,11 +6,11 @@ export class LandingPage extends Component {
         return (
             <div className="welcome-buttons">
                 <div className="row">
-                    <Link to="/nominate" className="landing-link">
+                    <a href="https://forestry.alabama.gov/Pages/Management/Champion_Tree_Nomination.aspx">
                         <button className="welcome-button btn btn-primary">
                             Nominate a Champ
                         </button>
-                    </Link>
+                    </a>
                     <Link to="/collection" className="landing-link">
                         <button className="welcome-button btn btn-primary">
                             My Collection

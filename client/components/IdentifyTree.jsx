@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 export class IdentifyTree extends Component {
     render() {
         return (
-            <div className="welcome-buttons">
+            <div>
                 <div className="row">
                     <Link to="/about " className="landing-link">
                         <button className="welcome-button btn btn-primary">
@@ -13,7 +13,7 @@ export class IdentifyTree extends Component {
                     </Link>
                     <Link to="/explore " className="landing-link">
                         <button className="welcome-button btn btn-primary">
-                            Identify with Dichotomous Key
+                            Dichotomous Key
                         </button>
                     </Link>
                 </div>
