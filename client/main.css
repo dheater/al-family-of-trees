@@ -8,14 +8,6 @@ img {
     width: 15rem;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    position: center;
-}
-
 .column {
     display: flex;
     flex-direction: column;
@@ -27,8 +19,12 @@ img {
     padding-left: 10px;
 }
 
-.welcome-button {
+.landing-link {
     width: 50%;
+}
+
+.welcome-button {
+    width: 49%;
     height: 10rem;
 }
 

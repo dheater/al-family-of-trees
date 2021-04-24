@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {LandingPage} from "./LandingPage";
 import Header from "./Header";
 import About from "./About";
+import TreeList from "./TreeList";
 
 export class App extends Component {
     render() {
@@ -16,8 +17,8 @@ export class App extends Component {
                         <Route path="/about">
                             <About/>
                         </Route>
-                        <Route path="/users">
-                            <Users/>
+                        <Route path="/collection">
+                            <TreeList />
                         </Route>
                         <Route path="/">
                             <LandingPage/>
