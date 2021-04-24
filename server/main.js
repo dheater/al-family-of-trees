@@ -16,7 +16,8 @@ Meteor.startup(() => {
             last_year_remeasured: '2018',
             owner: 'Allen McBride',
             nominator: 'John McBride',
-            image: 'https://dummyimage.com/600x400'
+            image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/121782150/large.jpeg?1618835963',
+            inat: 'https://www.inaturalist.org/observations?place_id=any&taxon_id=56033'
         });
 
         ChampionTrees.insert({
@@ -31,7 +32,8 @@ Meteor.startup(() => {
             last_year_remeasured: '2021',
             owner: 'Carol Rampey',
             nominator: 'Melody Stewart',
-            image: 'https://dummyimage.com/600x400'
+            image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/111165036/large.jpg?1611624720',
+            inat: 'https://www.inaturalist.org/observations?place_id=any&taxon_id=143781'
         });
     }
 
