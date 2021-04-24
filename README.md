@@ -1,4 +1,5 @@
 # AL Family of Trees: Champion's Edition
+<img src="home_screen_mockup.png" alt="Mockup of app home screen" width="200"/>
 
 ## Contributors
 
