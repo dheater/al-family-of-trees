@@ -1,12 +1,14 @@
 import React, {Component} from "react";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {LandingPage} from "./LandingPage";
+import Header from "./Header";
 
 export class App extends Component {
     render() {
         return (
             <Router>
                 <div>
+                    <Header />
                     {/* A <Switch> looks through its children <Route>s and
                         renders the first one that matches the current URL. */}
                     <Switch>
