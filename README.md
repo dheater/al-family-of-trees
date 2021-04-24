@@ -29,4 +29,4 @@ You should see your app running on http://localhost:3000
 
 * Color palette: [Spring Contrast](https://www.canva.com/colors/color-palettes/spring-contrast/)
 
-* Source of key questions used for demo: Unversity of Kentucky Department of Horticulture's [Dichotomous Keys for the Arboretum Walk](https://www.uky.edu/hort/sites/www.uky.edu.hort/files/pages-attachments/treekeys.pdf); additional info at [Kentucky Trees](https://www.uky.edu/hort/Kentucky-trees)
+* Source of key questions used for demo: University of Kentucky Department of Horticulture's [Dichotomous Keys for the Arboretum Walk](https://www.uky.edu/hort/sites/www.uky.edu.hort/files/pages-attachments/treekeys.pdf); additional info at [Kentucky Trees](https://www.uky.edu/hort/Kentucky-trees)
