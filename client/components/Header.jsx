@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from "react-router-dom";
 
 export default class Header extends Component {
     render() {
@@ -14,11 +15,11 @@ export default class Header extends Component {
                             <span className="icon-bar"></span>
                         </button>
                         <img src='images/app_mascot.png' alt="sticky" className="mascot navbar-left"/>
-                        <a className="navbar-brand navbar-center" href="#">AL Family of Trees:Champion's Edition</a>
+                        <Link to="/" className="navbar-brand navbar-center" href="#">AL Family of Trees:Champion's Edition</Link>
                     </div>
                     <div className="navbar-collapse collapse">
                         <ul className="nav navbar-nav navbar-right">
-                            <li><a href="#">Help</a></li>
+                            <li><Link to="/about" href="#">About</Link></li>
                         </ul>
                     </div>
                 </div>

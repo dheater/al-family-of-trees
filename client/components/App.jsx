@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {LandingPage} from "./LandingPage";
 import Header from "./Header";
+import About from "./About";
 
 export class App extends Component {
     render() {
@@ -28,10 +29,10 @@ export class App extends Component {
     }
 }
 
-function About() {
-    return <h2>About</h2>;
-}
-
+// function About() {
+//     return <h2>About</h2>;
+// }
+//
 function Users() {
     return <h2>Users</h2>;
 }
