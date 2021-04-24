@@ -9,6 +9,11 @@ img {
     width: 15rem;
 }
 
+.welcome-button {
+    background-color: #D3C02F;
+    border-color: black;
+}
+
 .column {
     display: flex;
     flex-direction: column;
