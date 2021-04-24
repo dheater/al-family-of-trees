@@ -12,6 +12,8 @@ img {
 .welcome-button {
     background-color: #D3C02F;
     border-color: black;
+    font-size: 30px;
+    white-space: normal;
 }
 
 .column {
