@@ -13,6 +13,7 @@ const TreeDetail = (props) => {
                     {props.image.name}
                 </h4>
                 <p>In {props.image.county} county.</p>
+                <a href={props.image.inat}>See on more on iNaturalist</a>
             </div>
         </li>
     );
