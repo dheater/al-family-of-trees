@@ -6,29 +6,25 @@ export class LandingPage extends Component {
         return (
             <div className="welcome-buttons">
                 <div className="row">
-                    <Link to="/about" className="landing-link">
-                        <button onClick={() => console.log('clicked')}
-                                className="welcome-button btn btn-primary">
-                            Scan a Champ
+                    <Link to="/nominate" className="landing-link">
+                        <button className="welcome-button btn btn-primary">
+                            Nominate a Champ
                         </button>
                     </Link>
                     <Link to="/collection" className="landing-link">
-                        <button onClick={() => console.log('clicked')}
-                                className="welcome-button btn btn-primary">
+                        <button className="welcome-button btn btn-primary">
                             My Collection
                         </button>
                     </Link>
                 </div>
                 <div className="row">
-                    <Link to="/about" className="landing-link">
-                        <button onClick={() => console.log('clicked')}
-                                className="welcome-button btn btn-primary">
+                    <Link to="/explore" className="landing-link">
+                        <button className="welcome-button btn btn-primary">
                             Explore
                         </button>
                     </Link>
-                    <Link to="/about" className="landing-link">
-                        <button onClick={() => console.log('clicked')}
-                                className="welcome-button btn btn-primary">
+                    <Link to="/identify" className="landing-link">
+                        <button className="welcome-button btn btn-primary">
                             Identify a Tree
                         </button>
                     </Link>

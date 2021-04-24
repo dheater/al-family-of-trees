@@ -4,6 +4,9 @@ import {LandingPage} from "./LandingPage";
 import Header from "./Header";
 import About from "./About";
 import TreeList from "./TreeList";
+import NominateChamp from "./NominateChamp";
+import IdentifyTree from "./IdentifyTree";
+import Explore from "./Explore";
 
 export class App extends Component {
     render() {
@@ -17,8 +20,17 @@ export class App extends Component {
                         <Route path="/about">
                             <About/>
                         </Route>
+                        <Route path="/nominate">
+                            <NominateChamp />
+                        </Route>
                         <Route path="/collection">
                             <TreeList />
+                        </Route>
+                        <Route path="/explore">
+                            <Explore />
+                        </Route>
+                        <Route path="/identify">
+                            <IdentifyTree />
                         </Route>
                         <Route path="/">
                             <LandingPage/>
