@@ -9,6 +9,60 @@ img {
     width: 15rem;
 }
 
+.container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+
+      .image {
+        flex-basis: 60%;
+        order: 2;
+      }
+      .text {
+        color: black;
+        padding-left: 20px;
+        font: italic 10px "Fira Sans", serif;
+      }
+
+.bubble {
+    position: relative;
+    background: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    box-shadow: 5px 5px 2px 0px #A3A3A3;
+    text-align: left;
+    border-radius: 6px;
+    padding: 4px;
+    border: #000000 solid 4px;
+}
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 17px 0 0 25px;
+    border-color: transparent transparent transparent #ffffff;
+    top: 19%;
+    right: -25px;
+    margin-top: -8.5px;
+}
+.bubble:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    z-index: 0;
+    border-style: solid;
+    border-width: 22px 0 0 30px;
+    border-color: transparent transparent transparent #000000;
+    top: 18%;
+    right: -33px;
+    margin-top: -8.5px;
+    display: block;
+}
+
 .column {
     display: flex;
     flex-direction: column;
