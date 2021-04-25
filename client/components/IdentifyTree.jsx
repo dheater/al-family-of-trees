@@ -11,11 +11,11 @@ export class IdentifyTree extends Component {
                             Photo Identify
                         </button>
                     </Link>
-                    <Link to="/explore " className="landing-link">
+                    <a href="http://dendro.cnre.vt.edu/dendrology/idit.htm">
                         <button className="welcome-button btn btn-primary">
                             Dichotomous Key
                         </button>
-                    </Link>
+                    </a>
                 </div>
             </div>
         );
