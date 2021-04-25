@@ -32,12 +32,21 @@ It's hosted on the free plan so it may take a couple of minutes for Meteor cloud
 ### Dichotomous Key
 
 * Mockup screen shots of example progression through key
+<img src="dichot_1_screenonly.jpg" alt="Mockup of dichotomous key screen" width="200"/>
+<img src="dichot_2_screenonly.jpg" alt="Mockup of dichotomous key screen" width="200"/>
+<img src="dichot_3_screenonly.jpg" alt="Mockup of dichotomous key screen" width="200"/>
+<img src="dichot_4_screenonly.jpg" alt="Mockup of dichotomous key screen" width="200"/>
+<img src="dichot_5_screenonly.jpg" alt="Mockup of dichotomous key screen" width="200"/>
+<img src="dichot_6_screenonly.jpg" alt="Mockup of dichotomous key screen" width="200"/>
+<img src="dichot_7_screenonly.jpg" alt="Mockup of dichotomous key screen" width="200"/>
+<img src="dichot_99_screenonly.jpg" alt="Mockup of successful tree identification" width="200"/>
 
 * [VA Tech - dichotomous key tree database online](http://dendro.cnre.vt.edu/dendrology/idit.htm)
 
 * Source of key questions used for demo: University of Kentucky Department of Horticulture's [Dichotomous Keys for the Arboretum Walk](https://www.uky.edu/hort/sites/www.uky.edu.hort/files/pages-attachments/treekeys.pdf); additional info at [Kentucky Trees](https://www.uky.edu/hort/Kentucky-trees)
 
 ### Genome Info
+<img src="genome_comp_screenonly.jpg" alt="Mockup of genome comparison screen" width="200"/>
 
 * [Explanation](Genome_Compare.jpg) of suggested way to show genome comparisons between species
 
