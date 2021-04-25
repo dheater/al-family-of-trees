@@ -30,3 +30,6 @@ You should see your app running on http://localhost:3000
 * Color palette: [Spring Contrast](https://www.canva.com/colors/color-palettes/spring-contrast/)
 
 * Source of key questions used for demo: University of Kentucky Department of Horticulture's [Dichotomous Keys for the Arboretum Walk](https://www.uky.edu/hort/sites/www.uky.edu.hort/files/pages-attachments/treekeys.pdf); additional info at [Kentucky Trees](https://www.uky.edu/hort/Kentucky-trees)
+
+### Other helpful resources
+* [Speech bubble generator](https://www.html-code-generator.com/css/speech-bubble-generator)

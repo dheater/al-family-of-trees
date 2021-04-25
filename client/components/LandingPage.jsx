@@ -4,6 +4,16 @@ import {Link} from "react-router-dom";
 export class LandingPage extends Component {
     render() {
         return (
+<div>
+            <div className="container">
+<div class="image">
+        <img src="images/app_mascot.svg"></img>
+      </div>
+<div class="bubble">
+    <p>"Hi, I'm Sticky!"</p>
+    <p>"I'll be your guide today. What's next on our journey?"</p>
+</div>
+            </div>
             <div className="welcome-buttons">
                 <div className="row">
                     <a href="https://forestry.alabama.gov/Pages/Management/Champion_Tree_Nomination.aspx">
@@ -29,6 +39,7 @@ export class LandingPage extends Component {
                         </button>
                     </Link>
                 </div>
+            </div>
             </div>
         );
     }
