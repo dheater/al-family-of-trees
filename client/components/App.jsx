@@ -5,7 +5,7 @@ import Header from "./Header";
 import About from "./About";
 import TreeList from "./TreeList";
 import {IdentifyTree} from "./IdentifyTree";
-import Explore from "./Explore";
+import {Explore} from "./Explore";
 
 export class App extends Component {
     render() {

@@ -9,13 +9,6 @@ img {
     width: 15rem;
 }
 
-.welcome-button {
-    background-color: #D3C02F;
-    border-color: black;
-    font-size: 30px;
-    white-space: normal;
-}
-
 .column {
     display: flex;
     flex-direction: column;
@@ -32,8 +25,12 @@ img {
 }
 
 .welcome-button {
-    width: 49%;
-    height: 10rem;
+    background-color: #D3C02F;
+    border-color: black;
+    font-size: 3rem;
+    white-space: normal;
+    width: 50%;
+    height: 15rem;
     color: black;
 }
 
