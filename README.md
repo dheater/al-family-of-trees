@@ -31,6 +31,8 @@ It's hosted on the free plan so it may take a couple of minutes for Meteor cloud
 
 ### Dichotomous Key
 
+* When the user wants to identify a tree using the dichotmous key method, they are presented with a series of questions. They uses swipes right or left according to the choices presented. Subsequent questions are presented until the key determines that the tree has been identified.
+
 * Mockup screen shots of example progression through key
 <img src="dichot_1_screenonly.jpg" alt="Mockup of dichotomous key screen" width="200"/>
 <img src="dichot_2_screenonly.jpg" alt="Mockup of dichotomous key screen" width="200"/>
