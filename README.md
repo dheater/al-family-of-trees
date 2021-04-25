@@ -1,11 +1,9 @@
 # AL Family of Trees: Champion's Edition
 <img src="home_screen_mockup.png" alt="Mockup of app home screen" width="200"/>
 
-## Contributors
+## Getting Started
 
 The project is built on the Meteor framework
-
-### Getting Started
 
 1. Clone this project and `cd` into the directory
 
@@ -19,7 +17,15 @@ The project is built on the Meteor framework
 
 You should see your app running on http://localhost:3000
 
-### Documentation of Expected Functionality
+## Deploy
+
+`meteor deploy al-family-of-trees.meteorapp.com --free --mongo`
+
+The app is live at http://al-family-of-trees.meteorapp.com/
+
+It's hosted on the free plan so it may take a couple of minutes for Meteor cloud to bring it up from a cold start.
+
+## Documentation of Expected Functionality
 
 * Rough wireframe layout of app operation: [WIP app wireframe](Screens.jpg)
 
